@@ -2,9 +2,10 @@
 The following will demonstrate how to interpret the results produced by the program. Several examples have been provided converting Decimal to Binary, Octal, and Hexadecimal.
 
 ### What to know:
-When running the program, the user will be prompted with a *Base_x* value and *Radix* value: 
-- The *Base_x* value is the initial starting Decimal value that is going to be converted
-- The *Radix* value is the new number representation base that the *Base_x* value is being converted to.
+- When running the program, the user will be prompted with a *Base_x* value and *Radix* value: 
+    - The *Base_x* value is the initial starting Decimal value that is going to be converted
+    - The *Radix* value is the new number representation base that the *Base_x* value is being converted to.
+- This program is only used to convert whole Decimal numbers.
 
 ## Example run of the program:
 ```
