@@ -27,4 +27,5 @@ To run the Successive Multiplication program:
 ```
 $ python3 Successive_Multiplication.py
 ```
-
+Please refer to the following documentations on running each program:
+- [Running and interpreting Successive_Division.py](Docs/Successive_Division.md)
