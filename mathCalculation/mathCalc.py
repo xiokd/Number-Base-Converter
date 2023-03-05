@@ -8,19 +8,19 @@ class s_mult:
         tempProduct = s_mult.basicMult(i,j)
         numRem = tempProduct - 1
         numInt = tempProduct - numRem
-        print('With the Integer Quotient ----> ', numInt)
+        print('With the Product whole value ----> ', numInt)
         print('The remainder of ', i, ' and ', j, ' is ----> ', round(numRem,2))
         print('---------------------------------------------------')
     def lessThanOne(i,j):
         tempProduct = s_mult.basicMult(i,j)
         noInt = 0
-        print('With the Integer Quotient ----> ', noInt)
+        print('With the Product whole value ----> ', noInt)
         print('The remainder of ', i, ' and ', j, ' is ----> ', round(tempProduct,2))
         print('---------------------------------------------------')
     def equalsOne(i,j):
         tempProduct = s_mult.basicMult(i,j)
         noRem = 0
-        print('With the Integer Quotient ----> ', tempProduct)
+        print('With the Product whole value ----> ', tempProduct)
         print('The remainder of ', i, ' and ', j, ' is ----> ', round(noRem,2))
         print('---------------------------------------------------')
 
