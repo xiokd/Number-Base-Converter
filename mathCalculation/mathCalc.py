@@ -36,7 +36,25 @@ class s_div:
         tempNum = s_div.tempVal(i,j)
         numDiv = tempNum // j
         return numDiv
+    def resultCheck(value):
+        if value == 10:
+            return 'A'
+        elif value == 11:
+            return 'B'
+        elif value == 12:
+            return 'C'
+        elif value == 13:
+            return 'D'
+        elif value == 14:
+            return 'E'
+        elif value == 15:
+            return 'F'
     def divRes(i,j):
         print('With the Integer Quotient ----> ', s_div.basicDiv(i,j))
-        print('The modulus of ', i, ' and ', j, ' is ----> ', s_div.basicMod(i,j))
+        q_result = s_div.basicMod(i,j)
+        if j == 16 and (9 < q_result < 16):
+            value = s_div.resultCheck(q_result)
+            print('The modulus of ', i, ' and ', j, ' is ----> ', value)
+        else:
+            print('The modulus of ', i, ' and ', j, ' is ----> ', q_result)
         print('---------------------------------------------------')
