@@ -56,7 +56,7 @@ Enter the Base_x number:
 ### Interpretation of the example run:
 - In the example shown, the user is prompted with a *Base_x* value and *Radix* value. In the following example, the *Base_x* value that was chosen was **79** and the *Radix* is **2**. The interpretation of this is that we are converting the decimal (base 10) value of 79 the binary representation using base 2 (Radix value).
 - Each run of the program will produce an *'Integer Quotient'* value and a *modulus* value. 
-    - The *'Integer Quotient'* value is the value that will be used as the new *Base_x* value until it has reached zero. 
+    - The *'Integer Quotient'* value is the value that will continuously be used as the new *Base_x* value until it has reached zero. 
     - The *modulus* value is used to write the new base representation of our original *Base_x* value. In this case, it will a part of the representation of our new Binary representation of 79 (Because it is Binary, it is either a 1 or 0).
 - After reaching an *'Integer Quotient'* value of zero, the *modulus* values will be read from bottom (Most Significant Bit) to top (Lease Significant Bit). In the example case, it will be read as the following:
     - 1001111
